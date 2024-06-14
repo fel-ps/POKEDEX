@@ -100,7 +100,7 @@
 <style scoped>
 
 .card-list{
-  max-height: 450px;
+  max-height: 75vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
