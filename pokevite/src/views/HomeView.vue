@@ -8,6 +8,7 @@
   let pokemons = reactive(ref());
   let searchPokemonField = ref("")
   let pokemonSelected = reactive(ref());
+  let loading = ref(false)
 
   onMounted (() =>{
     fetch("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0")
@@ -26,9 +27,12 @@
   })
 
   const selectPokemon = async (pokemon)=>{
+    loading.value = true;
     await fetch(pokemon.url)
     .then(res => res.json())
-    .then(res => pokemonSelected.value = res);
+    .then(res => pokemonSelected.value = res)
+    .catch(err => alert(err))
+    .finally(() => loading.value = false)
 
     console.log(pokemonSelected.value)
 
@@ -51,6 +55,7 @@
           :xp="pokemonSelected?.base_experience"
           :height="pokemonSelected?.height"
           :img="pokemonSelected?.sprites.other.dream_world.front_default"
+          :loading="loading"
           />
 
         </div>
