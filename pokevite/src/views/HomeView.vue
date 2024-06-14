@@ -44,8 +44,7 @@
 
 <template>
   <main>
-    <div class="container">
-
+    <div class="container text-body-secondary">
 
       <div class="row mt-4">
         <div class="col-sm-12 col-md-6">
