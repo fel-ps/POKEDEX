@@ -35,7 +35,6 @@
     .finally(() => loading.value = false)
 
     console.log(pokemonSelected.value)
-
   }
 
 
@@ -45,10 +44,8 @@
 <template>
   <main>
     <div class="container text-body-secondary">
-
       <div class="row mt-4">
         <div class="col-sm-12 col-md-6">
-          
           <CardPokemonSelected 
           :name="pokemonSelected?.name"
           :xp="pokemonSelected?.base_experience"
@@ -56,13 +53,11 @@
           :img="pokemonSelected?.sprites.other.dream_world.front_default"
           :loading="loading"
           />
-
         </div>
 
         <div class="col-sm-12 col-md-6">
           <div class="card card-list">
             <div class="card-body row">
-
               <div class="mb-3">
                 <label 
                 hidden 
@@ -90,8 +85,6 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </main>
 </template>
@@ -108,8 +101,6 @@
   .card-list{
     max-height: 48vh;
   }
-
-  
 }
 
 </style>
