@@ -8,6 +8,7 @@ A playlist com o desenvolvimento passo a passo está no YouTube e te convido a a
 [![Watch the video](https://user-images.githubusercontent.com/44410208/213874225-3556aefc-cd31-428b-aa2c-787289d8e4a3.png)](https://youtu.be/JWEhN12bW8w)
 
 No final do projeto desenvolvemos essa pokedex:
+
 <img width="800" alt="Captura de Tela 2023-01-21 às 17 00 45" src="https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png">
 
 ## Como rodar projeto?
