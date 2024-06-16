@@ -1,4 +1,4 @@
-# Pokédex
+# Pokedéx
 
 ### Objetivo:
 Esse é um mini-projeto que eu fiz a partir de um mini curso, desenvolvido para fins didáticos com intúito de praticar o desenvolvimento com Vue 3 utilizando Vite e consumindo a API PokeAPI. 
