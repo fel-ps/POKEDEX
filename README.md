@@ -11,7 +11,7 @@ No final do projeto desenvolvemos essa pokedex:
 
 <img width="800" alt="Captura de Tela 2023-01-21 às 17 00 45" src="https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png">
 
-## Como rodar projeto?
+## Como rodar o projeto?
 
 Basta abrir seu terminal e rodar os seguintes comandos:
 
