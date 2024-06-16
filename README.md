@@ -11,7 +11,16 @@ No final do projeto desenvolvemos essa pokedex:
 
 <img width="800" alt="Captura de Tela 2023-01-21 às 17 00 45" src="https://user-images.githubusercontent.com/44410208/213885050-e603d590-5c32-45cc-abfa-be128513b964.png">
 
-## Como rodar o projeto?
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- Vue 3 + Vite
+- CSS + Bootstrap (Implementado no vue por CDN)
+- Fetch (API nativa do JavaScript para fazer requisições HTTP. Foi usada para consumir dados da PokeAPI)
+- Git e Github
+
+## 💻 Como rodar o projeto?
 
 Basta abrir seu terminal e rodar os seguintes comandos:
 
